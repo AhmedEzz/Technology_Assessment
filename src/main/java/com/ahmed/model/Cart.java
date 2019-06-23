@@ -15,6 +15,7 @@ public class Cart implements Serializable{
 	private Set<Item> items;
 	private Customer customer;
 	
+	public Cart () {}
 	public Cart(Customer customer) {
 		this.customer = customer;
 		this.items = new LinkedHashSet<>();

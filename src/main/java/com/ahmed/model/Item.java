@@ -13,6 +13,7 @@ public class Item implements Serializable {
 	private Product product;
 	private int quantity;
 
+	public Item () {}
 	public Item(int id, Product product, int quantity) {
 		this.id = id;
 		this.product = product;
